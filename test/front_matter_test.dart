@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
-import 'package:front_matter/front_matter.dart' as fm;
-import 'package:front_matter/src/front_matter_document.dart';
-import 'package:front_matter/src/front_matter_exception.dart';
+import 'package:front_matter_ml/front_matter_ml.dart' as fm;
+import 'package:front_matter_ml/src/front_matter_document.dart';
+import 'package:front_matter_ml/src/front_matter_exception.dart';
 
 const String _defaultDelimiter = '---';
 const String _defaultContent = 'Hello, world!';
@@ -77,7 +77,7 @@ void main() {
 
   test('reads a file from disk and parses front matter', () async {
     var result = await fm.parseFile('example/hello-world.md');
-    expect(result.data['author'], equals('izolate'));
+    expect(result.data['author'], equals('maks'));
   });
 
   test('throws an error if file not found', () {

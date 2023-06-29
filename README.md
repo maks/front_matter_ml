@@ -2,7 +2,7 @@
 
 A front matter parser that extracts YAML metadata from the start of a file or string.
 
-[![Build Status](https://travis-ci.org/izolate/front-matter.svg?branch=master)](https://travis-ci.org/izolate/front-matter)
+![Build Status](https://github.com/maks/front_matter_ml/actions/workflows/dart.yml/badge.svg)
 
 Front matter is a concept heavily borrowed from [Jekyll](https://github.com/jekyll/jekyll), and other static site generators, referring to a block of YAML in the header of a file representing the file's metadata.
 

@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:front_matter_ml/front_matter.dart' as fm;
+import 'package:front_matter_ml/front_matter_ml.dart' as fm;
 import 'package:front_matter_ml/src/front_matter_document.dart';
 import 'package:front_matter_ml/src/front_matter_exception.dart';
 
